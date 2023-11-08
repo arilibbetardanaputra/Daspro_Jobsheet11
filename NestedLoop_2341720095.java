@@ -20,6 +20,7 @@ public class NestedLoop_2341720095 {
                 System.out.print(suhu + " ");
             }
             System.out.println();
+            
         }
     }
 }
