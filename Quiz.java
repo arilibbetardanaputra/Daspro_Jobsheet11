@@ -18,8 +18,10 @@ public class Quiz {
                 if (answer == number) {
                     System.out.println("Jawaban benar!");
                     success = true;
+                } else if (answer < number) {
+                    System.out.println("Jawaban terlalu kecil. Coba lagi.");
                 } else {
-                    System.out.println("Jawaban salah. Coba lagi.");
+                    System.out.println("Jawaban terlalu besar. Coba lagi.");
                 }
             } while (!success);
 
